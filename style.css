@@ -27,3 +27,12 @@ section{
     padding: 10px;
     font-size: 20px;
 }
+
+.intro{
+    color: #efdecd;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
