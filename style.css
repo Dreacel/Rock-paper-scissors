@@ -9,3 +9,11 @@ section{
     background-color: #987654;
     font-family: sans-serif;
 }
+
+.score{
+    color: #efdecd;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
