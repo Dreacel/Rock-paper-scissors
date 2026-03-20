@@ -24,8 +24,8 @@ const game = () =>{
             options.addEventListener('click', function(){
 
                const computerNumber = Math.floor(Math.random() * 3);
-               const computerChoice = computerOptions[computerNumber]
-               
+               const computerChoice = computerOptions[computerNumber];
+               console.log(computerChoice);
             });
         });
 
