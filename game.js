@@ -20,8 +20,15 @@ const game = () =>{
         
         const computerOptions = ['Rock','Paper','Scissors'];
 
-        const computerNumber = Math.floor(Math.random() * 3);
-        console.log(computerNumber);
+        options.forEach(options=>{
+            options.addEventListener('click', function(){
+
+               const computerNumber = Math.floor(Math.random() * 3);
+               const computerChoice = computerOptions[computerNumber]
+               
+            });
+        });
+
     }
 
     startGame();
