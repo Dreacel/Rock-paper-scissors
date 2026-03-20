@@ -49,4 +49,16 @@ section{
     color: #efdecd;
     font-size: 20px;
     background-color: #704241;
+    border-radius: 3px;
+}
+
+.match{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.winner{
+    
 }
