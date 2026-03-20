@@ -28,7 +28,6 @@ const game = () =>{
 
                comparehands(this.textContent, computerChoice);
 
-
                playerHand.src = `./asset/${this.textContent}.png`;
                computerHand.src = `./asset/${computerChoice}.png`;
             });
@@ -42,7 +41,7 @@ const game = () =>{
             return;
         }
 
-        if(playerChoice === 'rock'){
+        if(playerChoice === 'rock') {
             if(computerChoice === 'scissors'){
                 winner.textContent = 'Player Wins';
                 return;
