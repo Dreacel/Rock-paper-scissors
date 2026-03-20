@@ -20,7 +20,7 @@ const game = () =>{
         
         const computerOptions = ['Rock','Paper','Scissors'];
 
-        const computerNumber = Math.random() * 3;
+        const computerNumber = Math.floor(Math.random() * 3);
         console.log(computerNumber);
     }
 
