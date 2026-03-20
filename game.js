@@ -1,4 +1,4 @@
-const game = ()=>{
+const game = () => {
     let pScore = 0;
     let cScore = 0;
 
@@ -7,13 +7,14 @@ const game = ()=>{
         const introScreen = document.querySelector('.intro');
         const Match = document.querySelector('.match');
 
-        playBtn.addEventListener('click', ()=> {
-            introScreen.classList.add('fadeout');
+        playBtn.addEventListener('click', () => {
+            introScreen.classList.add('fadeOut');
         });
     };
 
-
+    //Is call all the inner function
     startGame();
 };
 
+//start the game function
 game();
