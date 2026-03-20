@@ -41,8 +41,8 @@ const game = () =>{
             return;
         }
 
-        if(playerChoice === 'rock') {
-            if(computerChoice === 'scissors'){
+        if(playerChoice === 'Rock') {
+            if(computerChoice === 'Scissors'){
                 winner.textContent = 'Player Wins';
                 return;
             }else{
@@ -51,8 +51,8 @@ const game = () =>{
             }
         }  
 
-        if(playerChoice === 'paper'){
-            if(computerChoice === 'scissors'){
+        if(playerChoice === 'Paper'){
+            if(computerChoice === 'Scissors'){
                 winner.textContent = 'Computer Wins';
                 return;
             }else{
@@ -61,8 +61,8 @@ const game = () =>{
             }
         }
 
-        if(playerChoice === 'scissors'){
-            if(computerChoice === 'rock'){
+        if(playerChoice === 'Scissors'){
+            if(computerChoice === 'Rock'){
                 winner.textContent = 'Computer Wins';
                 return;
             }else{
