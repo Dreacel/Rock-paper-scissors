@@ -9,6 +9,7 @@ const game = () =>{
 
         playBtn.addEventListener('click', () =>{
             introScreen.classList.add('FadeOut')
+            match.classList.add('fadeIn')
         });
 
         
