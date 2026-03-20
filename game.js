@@ -30,6 +30,9 @@ const game = () =>{
 
                playerHand.src = `./asset/${this.textContent}.png`;
                computerHand.src = `./asset/${computerChoice}.png`;
+
+               playerHand.style.animation= 'shakePlayer 2s ease'
+               computerHand.style.animation= 'shakeComputer 2s ease'
             });
         });
     }
@@ -95,6 +98,7 @@ const game = () =>{
 
     startGame();
     playMatch();
+
 };
 
 game();
