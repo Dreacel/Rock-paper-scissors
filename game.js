@@ -11,11 +11,21 @@ const game = () =>{
             introScreen.classList.add('FadeOut');
             match.classList.add('fadeIn');
         });
-
-        
     };
 
+    const playMatch = () =>{
+        const options = document.querySelectorAll('.options button');
+        const playerHand = document.querySelector('.player-hand');
+        const computerHand = document.querySelector('.computer-hand');
+        
+        const computerOptions = ['Rock','Paper','Scissors'];
+
+        const computerNumber = Math.random() * 3;
+        console.log(computerNumber);
+    }
+
     startGame();
+    playMatch();
 };
 
 game();
