@@ -8,8 +8,8 @@ const game = () =>{
         const match = document.querySelector('.match');
 
         playBtn.addEventListener('click', () =>{
-            introScreen.classList.add('FadeOut')
-            match.classList.add('fadeIn')
+            introScreen.classList.add('FadeOut');
+            match.classList.add('fadeIn');
         });
 
         
