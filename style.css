@@ -70,3 +70,7 @@ section{
     justify-content: space-around;
     align-items: center;
 }
+
+.player-hand{
+    transform: rotateX(180deg);
+}
