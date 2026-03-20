@@ -25,7 +25,10 @@ const game = () =>{
 
                const computerNumber = Math.floor(Math.random() * 3);
                const computerChoice = computerOptions[computerNumber];
-               console.log(computerChoice);
+
+
+               playerHand.src = `./assets/${this.textContent}.png`;
+               computerHand.src = `./assets/${computerChoice}.png`;
             });
         });
     }
@@ -36,7 +39,37 @@ const game = () =>{
             winner.textContent = 'It is a tie';
             return;
         }
-        
+
+        if(playerChoice === 'rock'){
+            if(computerChoice === 'scissors'){
+                winner.textContent = 'Player Wins';
+                return;
+            }else{
+                winner.textContent = 'Computer Wins';
+                return;
+            }
+        }  
+
+        if(playerChoice === 'paper'){
+            if(computerChoice === 'scissors'){
+                winner.textContent = 'Computer Wins';
+                return;
+            }else{
+                winner.textContent = 'Player Wins';
+                return;
+            }
+        }
+
+        if(playerChoice === 'scissors'){
+            if(computerChoice === 'rock'){
+                winner.textContent = 'Computer Wins';
+                return;
+            }else{
+                winner.textContent = 'Player Wins';
+                return;
+            }
+        }
+
 
     }
 
