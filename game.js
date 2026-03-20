@@ -14,9 +14,7 @@ const game = () =>{
         
     };
 
-    //Is call all the inner function
     startGame();
 };
 
-//start the game function
 game();
