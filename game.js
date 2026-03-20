@@ -27,8 +27,8 @@ const game = () =>{
                const computerChoice = computerOptions[computerNumber];
 
 
-               playerHand.src = `./assets/${this.textContent}.png`;
-               computerHand.src = `./assets/${computerChoice}.png`;
+               playerHand.src = `./asset/${this.textContent}.png`;
+               computerHand.src = `./asset/${computerChoice}.png`;
             });
         });
     }
