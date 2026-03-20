@@ -28,6 +28,15 @@ const game = () =>{
                console.log(computerChoice);
             });
         });
+    }
+
+    const comparehands = (playerChoice, computerChoice) =>{
+        const winner = document.querySelector('.winner');
+        if(playerChoice === computerChoice){
+            winner.textContent = 'It is a tie';
+            return;
+        }
+        
 
     }
 
